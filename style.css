@@ -195,12 +195,20 @@ background-color: #FFF;
  
     max-width: 1224px;
     min-height: 432px;
+    padding-top: 30px;
    
+}
+
+.main {
+
+    position: relative;
+    bottom: 59px;
+
 }
 
 .recruiting_content {
     margin-top: 46px;
-    margin-left: 156px;
+    margin-left: 172px;
     background: #6F5CF9;
     max-width: 668px;
     display: flex;
@@ -237,6 +245,7 @@ background-color: #FFF;
     display: inline-block;
     transition: all 0.2s ease-in;
     position: relative;
+    top: 36px;
     overflow: hidden;
     z-index: 1;
     color: #090909;
@@ -314,6 +323,7 @@ background-color: #FFF;
 ._Featured_Jobs {
     background: #FFF;
     padding-left: 85px;
+    z-index: -1;
 }
 
 
@@ -486,6 +496,7 @@ color: #3D589B;
 .footer {
     background-color: #0C2E82;
     min-height: 317px;
+    z-index: 1;
 }
 
 
